@@ -3,9 +3,21 @@
     "silex/silex": "^2.0.4",
     "monolog/monolog": "^1.22",
     "twig/twig": "^2.0",
-    "symfony/twig-bridge": "^3"
+    "symfony/twig-bridge": "^3",
+    "php": "^7.0",
+    "oyejorge/less.php": "~1.5"
   },
   "require-dev": {
     "heroku/heroku-buildpack-php": "*"
+  },
+
+
+  "scripts": {
+    "post-install-cmd": [
+      "vendor/bin/lessc web/less/main.less > web/less/main.css"
+  ],
+    "post-update-cmd": [
+      "vendor/bin/lessc web/less/main.less > web/less/main.css"
+    ]
   }
 }
