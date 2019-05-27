@@ -1,11 +1,26 @@
 {
   "require" : {
     "silex/silex": "^2.0.4",
+    "symfony/flex": "^1.2.5",
     "monolog/monolog": "^1.22",
     "twig/twig": "^2.0",
-    "symfony/twig-bridge": "^3"
+    "symfony/twig-bridge": "^3",
+    "php": "^7.0",
+    "oyejorge/less.php": "~1.5"
   },
   "require-dev": {
     "heroku/heroku-buildpack-php": "*"
+  },
+
+
+  "scripts": {
+    "post-install-cmd": [
+      "lessc web/less/nav.less > web/less/nav.css",
+      "lessc web/less/main.less > web/less/main.css"
+    ],
+    "post-update-cmd": [
+      "lessc web/less/nav.less > web/less/nav.css",
+      "lessc web/less/main.less > web/less/main.css"
+    ]
   }
 }
