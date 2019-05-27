@@ -15,12 +15,12 @@
 
   "scripts": {
     "post-install-cmd": [
-      "lessc web/less/nav.less > web/less/nav.css",
-      "lessc web/less/main.less > web/less/main.css"
+      "lessc web/stylesheets/less/nav.less > web/stylesheets/css/nav.css",
+      "lessc web/stylesheets/less/main.less > web/stylesheets/css/main.css"
     ],
     "post-update-cmd": [
-      "lessc web/less/nav.less > web/less/nav.css",
-      "lessc web/less/main.less > web/less/main.css"
+      "lessc web/stylesheets/less/nav.less > web/stylesheets/css/nav.css",
+      "lessc web/stylesheets/less/main.less > web/stylesheets/css/main.css"
     ]
   }
 }

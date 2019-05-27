@@ -1,6 +1,9 @@
-@themes: "web/less";
-
-@import "@{themes}/nav.less";
+nav a {
+  color: blue;
+}
+nav li {
+  color: red;
+}
 .jumbotron {
   background: #532F8C;
   color: white;
