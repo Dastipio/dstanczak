@@ -11,8 +11,6 @@
   "require-dev": {
     "heroku/heroku-buildpack-php": "*"
   },
-
-
   "scripts": {
     "post-install-cmd": [
       "lessc web/stylesheets/less/nav.less > web/stylesheets/css/nav.css",
