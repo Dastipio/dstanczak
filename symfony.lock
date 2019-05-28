@@ -1,4 +1,7 @@
 {
+    "csanquer/pdo-service-provider": {
+        "version": "1.1.x-dev"
+    },
     "pimple/pimple": {
         "version": "v3.2.3"
     },
@@ -34,6 +37,9 @@
     },
     "symfony/http-kernel": {
         "version": "v4.2.8"
+    },
+    "symfony/options-resolver": {
+        "version": "v3.0.9"
     },
     "symfony/routing": {
         "version": "4.2",
