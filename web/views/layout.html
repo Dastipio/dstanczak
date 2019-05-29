@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  {% include 'header.html' %}
+  {% include 'header/header.html' %}
 </head>
 
 <body>
-  {% include 'nav.html' %}
-  {% include 'home.html' %}
+  {% include 'navbar/nav.html' %}
+  {% include 'home/home.html' %}
+  {% include 'gallery/gallery.html' %}
 
   {% block content %}{% endblock %}
 </body>
