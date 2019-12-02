@@ -29,5 +29,11 @@ For more information about using PHP on Heroku, see these Dev Center articles:
 
 
 1. First clone repo
-2. Do composer install
+2. Install IDE for example PHP Storm
+3. install php 7.3
+4. install composer
+5. install heroku console and power shell
+6. git remote set-url heroku git@heroku.com:https://github.com/Dastipio/dstanczak
+7. open project in PHP storm and do some changes. Add commit and push to repo. 
+8. 
 http://lesscss.org/usage/

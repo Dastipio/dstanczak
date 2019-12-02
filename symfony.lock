@@ -2,11 +2,26 @@
     "csanquer/pdo-service-provider": {
         "version": "1.1.x-dev"
     },
+    "heroku/heroku-buildpack-php": {
+        "version": "v164"
+    },
+    "monolog/monolog": {
+        "version": "1.25.2"
+    },
+    "oyejorge/less.php": {
+        "version": "v1.7.0.14"
+    },
+    "php": {
+        "version": "7.3"
+    },
     "pimple/pimple": {
         "version": "v3.2.3"
     },
     "psr/container": {
         "version": "1.0.0"
+    },
+    "psr/log": {
+        "version": "1.1.2"
     },
     "silex/silex": {
         "version": "v2.3.0"
@@ -17,8 +32,14 @@
     "symfony/debug": {
         "version": "v4.2.8"
     },
+    "symfony/error-handler": {
+        "version": "v4.4.1"
+    },
     "symfony/event-dispatcher": {
         "version": "v4.2.8"
+    },
+    "symfony/event-dispatcher-contracts": {
+        "version": "v1.1.7"
     },
     "symfony/flex": {
         "version": "1.0",
@@ -38,8 +59,26 @@
     "symfony/http-kernel": {
         "version": "v4.2.8"
     },
+    "symfony/mime": {
+        "version": "v5.0.1"
+    },
     "symfony/options-resolver": {
         "version": "v3.0.9"
+    },
+    "symfony/polyfill-ctype": {
+        "version": "v1.13.1"
+    },
+    "symfony/polyfill-intl-idn": {
+        "version": "v1.13.1"
+    },
+    "symfony/polyfill-mbstring": {
+        "version": "v1.13.1"
+    },
+    "symfony/polyfill-php72": {
+        "version": "v1.13.1"
+    },
+    "symfony/polyfill-php73": {
+        "version": "v1.13.1"
     },
     "symfony/routing": {
         "version": "4.2",
@@ -55,5 +94,14 @@
             "./config/packages/test/routing.yaml",
             "./config/routes.yaml"
         ]
+    },
+    "symfony/twig-bridge": {
+        "version": "v3.4.36"
+    },
+    "symfony/var-dumper": {
+        "version": "v5.0.1"
+    },
+    "twig/twig": {
+        "version": "v2.12.2"
     }
 }

@@ -5,7 +5,7 @@
     "monolog/monolog": "^1.22",
     "twig/twig": "^2.0",
     "symfony/twig-bridge": "^3",
-    "php": "^7.0",
+    "php": "^7.3",
     "oyejorge/less.php": "~1.5",
     "csanquer/pdo-service-provider": "~1.1dev"
   },
