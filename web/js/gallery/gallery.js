@@ -5,7 +5,14 @@ function openModal() {
 
 $(document).keyup(function(e) {
     if (e.key === "Escape") { // escape key maps to keycode `27`
-        // <DO YOUR WORK HERE>
+        closeModal();
+    }
+});
+
+$(document).click(function(event){
+    // e.stopPropagation();
+    if ($(event.target).is("#myModal")) {
+        closeModal();
     }
 });
 
